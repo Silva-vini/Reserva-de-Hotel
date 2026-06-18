@@ -14,7 +14,7 @@ Escolhi esse projeto porque queria algo que tivesse lógica de negócio real —
 
 ## Funcionalidades
 
-- Cadastro de reserva com validação de tipo de quarto e valor mínimo de diária
+- Cadastro de reserva com validação de tipo de quarto, numeros de dia acima de 0 e valor mínimo de diária
 - Listagem completa das reservas ativas
 - Alteração e cancelamento por CPF
 - Busca de hóspede

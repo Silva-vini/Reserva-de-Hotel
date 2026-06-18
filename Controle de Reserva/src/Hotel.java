@@ -94,11 +94,16 @@ public class Hotel {
             } while(nova.getValorDiaria() < minimoAplicavel);
 
 
-            System.out.println("Quanatos dias");
-            nova.setNumeroDeDias(scanner.nextInt());
+            do {
+                System.out.println("Quantos dias?");
+                nova.setNumeroDeDias(scanner.nextInt());
+
+                if(nova.getNumeroDeDias() <= 0) {
+                    System.out.println("Número de dias inválido! Digite um valor maior que 0.");
+                }
+            } while(nova.getNumeroDeDias() <= 0);
 
             String decisao;
-
             scanner.nextLine();
             do{
                 System.out.println("Deseja  Sim para confirmar sua reserva e Não caso não queira confirmar ");

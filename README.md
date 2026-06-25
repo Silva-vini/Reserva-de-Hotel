@@ -68,4 +68,3 @@ Esse projeto foi feito com array fixo de 10 posições de propósito — quero r
 
 Estou em transição de carreira para desenvolvimento back-end. Este é o primeiro de vários projetos que vou construir e documentar publicamente enquanto avanço no curso.
 
-**Vinicius Silva** — [github.com/Silva-vini](https://github.com/Silva-vini)
